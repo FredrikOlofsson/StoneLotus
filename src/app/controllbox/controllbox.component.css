@@ -1,0 +1,14 @@
+div#controllBoxDiv {
+    height: 30%;
+    width: 12%;
+    margin: 2%;
+    margin-top: 3%;
+    position: absolute;
+    border: 5px solid #0D5000;
+    border-radius: 15px;
+    z-index: 1;
+    background-color: rgba(220, 252, 217, 0.8);
+}
+.row {
+    margin-top: 10%;
+}
