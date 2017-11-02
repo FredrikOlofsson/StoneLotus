@@ -118,8 +118,13 @@ export class AppComponent {
 
   //Layer Groups 
   var lg_resources = L.layerGroup([resource_salt]);
+  var lg_flags = L.layerGroup([roadsign_1_destination, roadsign_2_destination, roadsign_3_destination, 
+                              roadsign_4_destination, roadsign_5_destination, roadsign_6_destination, 
+                              roadsign_7_destination, roadsign_8_destination, roadsign_9_destination]
+  );
   var overlays = {
     "Natural Resources" : lg_resources,
+    "Flags": lg_flags
   }
   //Add Layer Controll 
   L.control.layers(null, overlays).addTo(mymap);
